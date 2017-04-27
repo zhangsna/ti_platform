@@ -1,0 +1,180 @@
+.nav-tabs{
+    background: #eee;
+    border: none;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    background-color: #fff;
+}
+
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+
+    border-radius: 4px 4px 0 0;
+}
+
+.input-file label{
+    width: 100%;
+    min-height: 300px;
+    background: #eee url("../img/default.png") no-repeat center center;
+}
+
+.input-file input{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.timeline-wrap{
+    border-left: 2px solid #aaa;
+    position: relative;
+    padding: 30px 21px 50px 0;
+    margin: 30px 0;
+}
+.timeline-wrap span{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #aaa;
+    border-radius:100%;
+}
+.timeline-wrap span.top{
+    left: -6px;
+    top: -5px;
+}
+.timeline-wrap span.bottom{
+    left: -6px;
+    bottom: -5px;
+}
+.time-line li{
+    position: relative;
+}
+.time-line li:after{
+    position: absolute;
+    content: '';
+    width: 13px;
+    height: 13px;
+    background: #aaa;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    left: -7px;
+    top: 20px;
+}
+.time-line > li:hover:after{
+    background-color: dodgerblue;
+}
+.time-line li.active:after{
+    background: dodgerblue;
+}
+
+.scrollspy-example{
+    height: 300px;
+    overflow-y: auto;
+    position: relative;
+}
+
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 20px 26px;
+}
+
+.tab-content h2{
+    border-bottom: 1px solid #ccc;
+}
+
+div,ul,ol li{
+    list-style: none;
+    /*border-bottom: 1px solid #eee;*/
+    line-height: 40px;
+}
+
+.party{
+    background: #fff;
+}
+
+.party img{
+    margin-top: 18px;
+    margin-left: 50px;
+}
+
+.party h2{
+    color: #01b0b9;
+}
+
+.tab-pane .pic{
+    border:1px solid #ccc;
+    position: relative;
+}
+
+.tab-pane .pic img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 76px;
+    height: 77px;
+}
+
+
+.list .line {
+    width: 100px;
+    height: 100px;
+    line-height: 160px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    transform: rotate(-45deg); }
+.list .one {
+    background: #d45858; }
+.list .two {
+    background: #757575; }
+.list .three {
+    background: #01b0b9; }
+.list dl {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px #ccc;
+    overflow: hidden; }
+.list dl dt img {
+    width: 100%; }
+.list dl dd {
+    padding-left: 15px; }
+.list dl dd p {
+    color: #999;
+    margin-bottom: 0;
+    padding-bottom: 10px; }
+
+.title1 ul{
+    margin-top: 18px;
+}
+.title1 ul li a{
+    font-size: 18px;
+}
+.title1 ul li a.on{
+    color: #01b0b9 !important;
+}
+.title1 ul li a::after{
+    content: "";
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    transform: rotate(-135deg);
+}
+.title1 ul li a.on::after{
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 5%;
+    top: 35%;
+    border-color: #01b0b9;
+}
+
+
